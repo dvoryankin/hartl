@@ -8,6 +8,7 @@ group :development, :test do
   gem 'pg', '0.15.1'
   gem 'rspec-rails', '2.99'
   gem 'test-unit'
+  gem 'guard-rspec'
 end
 
 group :test do
@@ -23,6 +24,8 @@ gem 'turbolinks', '1.1.1'
 gem 'jbuilder', '1.0.2'
 
 gem 'rake', '< 11.0'
+gem 'pry-rails'
+gem 'libnotify'
 
 group :doc do
   gem 'sdoc', '0.3.20', require: false
