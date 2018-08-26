@@ -8,7 +8,11 @@ group :development, :test do
   gem 'pg', '0.15.1'
   gem 'rspec-rails', '2.99'
   gem 'test-unit'
-  gem 'guard-rspec'
+
+  gem 'guard-rails', '0.7.2', require: false
+  gem 'guard-rspec', '3.1.0', require: false
+  gem 'guard-rubocop', '1.2.0', require: false
+  gem 'guard-spork', '2.1.0', require: false
 end
 
 group :test do
