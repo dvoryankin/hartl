@@ -20,11 +20,6 @@ describe "Static pages" do
       visit '/'
       expect(page).not_to have_title('| Home')
     end
-
-    it "should have the title 'Home'" do
-      visit '/'
-      expect(page).to have_title("#{base_title} | Home")
-    end
   end
 
   describe "Help page" do
