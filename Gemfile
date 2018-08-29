@@ -9,10 +9,6 @@ group :development, :test do
   gem 'rspec-rails', '2.99'
   gem 'test-unit'
 
-  gem 'guard-rails', '0.7.2', require: false
-  gem 'guard-rspec', '3.1.0', require: false
-  gem 'guard-rubocop', '1.2.0', require: false
-  gem 'guard-spork', '2.1.0', require: false
 end
 
 group :test do
@@ -30,6 +26,8 @@ gem 'jbuilder', '1.0.2'
 gem 'rake', '< 11.0'
 gem 'pry-rails'
 gem 'libnotify'
+gem 'bootstrap-sass', '3.2.0.0'
+# gem 'sprockets-rails', '3.0.4'
 
 group :doc do
   gem 'sdoc', '0.3.20', require: false
