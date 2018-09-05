@@ -6,9 +6,9 @@ describe "Static pages" do
 
   describe "Home page" do
 
-    it "should have the content 'Sample App'" do
+    it "should have the content 'App'" do
       visit root_path
-      expect(page).to have_content('Sample App')
+      expect(page).to have_content('App')
     end
 
     it "should have the base title" do
