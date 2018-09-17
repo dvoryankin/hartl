@@ -9,7 +9,6 @@ group :development, :test do
   gem 'pg', '0.15.1'
   gem 'rspec-rails', '2.99'
   gem 'test-unit'
-
 end
 
 group :test do
