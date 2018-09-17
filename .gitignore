@@ -20,3 +20,4 @@ doc/
 .idea
 .secret
 .c9
+.vscode/settings.json
